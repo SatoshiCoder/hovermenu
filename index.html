@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hover Menu</title>
+	</head>
+	<body>
+		<div class="menu">
+            <li><i><ion-icon name="home-outline"></ion-icon></i></li>
+            <li><i><ion-icon name="search-outline"></ion-icon></i></li>
+            <li><i><ion-icon name="add-outline"></ion-icon><i></i></li>
+            <li><i><ion-icon name="airplane-outline"></ion-icon></i></li>
+           
+
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+      body 
+{
+	overflow: hidden;
+    min-height: 100vh;
+    background-color: rgb(32,32,32);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu
+{
+    width: 550px;
+    height: 60px;
+    background: rgb(23,22,22);
+     justify-content: space-around;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    box-shadow: 0px 4px 8px black;
+}
+.menu li{
+    width: 60px;
+    height: 60px;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: .7s;
+    border-radius: 10px;
+
+}
+.menu li i
+{
+    font-size: 30px;
+    color: rgb(27, 168, 207);
+}
+.menu li:hover{
+    transform: translateY(-40px);
+    background: rgb(23,22,22);
+    box-shadow: 0px 4px 8px black;
+    width: 80px;
+    height: 80px;
+    color: aqua;
+}
+
+    </style>
+	</body>
+</html>
